@@ -12,8 +12,11 @@ import java.util.Map;
 //@SpringBootTest
 class TliasWebManagementApplicationTests {
 
+
+
     @Test
     void contextLoads() {
+        System.out.println("hot_fix");
     }
 
     @Test
@@ -29,5 +32,8 @@ class TliasWebManagementApplicationTests {
                 .compact();
         System.out.println(jwt);
     }
+
+
+
 
 }
